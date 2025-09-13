@@ -11,7 +11,7 @@
         <nav class="navbar">
             <ul>
                 <li><img src="/src/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg" alt="Pallets Logo" class="logo"></li>
-                <li><a id="activo" href="#hero">INICIO</a></li>
+                <li><a href="#hero">INICIO</a></li>
                 <li><a href="#productos">PRODUCTOS</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
             </ul>
@@ -19,7 +19,7 @@
         <section class="hero">
             <h1>Soluciones en pallets de madera</h1>
             <p>Calidad, rapidez y compromiso con el medio ambiente</p>
-        <a href="./pages/contacto.html">Solicita tu presupuesto</a>
+        <a href="#contacto">Solicita tu presupuesto</a>
     </section>
     </header>
     <body>
@@ -43,12 +43,87 @@
     <section class="destacados" id="productos">
         <h2>Productos destacados</h2>
         <p>Descubre algunos de nuestros modelos más solicitados</p>
-        <!-- Aquí puedes agregar más productos si lo deseas -->
-        <div class="grid-container">
-            <div class="grid-item">Pallet Europeo</div>
-            <div class="grid-item">Pallet Americano</div>
-            <div class="grid-item">Pallet a medida</div>
-            <div class="grid-item">Pallet reciclado</div>
+        <div class="productos-grid">
+            <div class="card">
+                <div class="card__shine"></div>
+                <div class="card__glow"></div>
+                <div class="card__content">
+                    <div class="card__badge">NEW</div>
+                    <div class="card__image" style="background-image: url('src/palletEjemplo.jpg'); background-size: cover;"></div>
+                    <div class="card__text">
+                        <p class="card__title">Pallet Europeo</p>
+                        <p class="card__description">Ideal para exportación y logística internacional.</p>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__price">$49.99</div>
+                        <div class="card__button" onclick="location.href='#contacto'" style="cursor:pointer;">
+                            <svg height="16" width="16" viewBox="0 0 24 24">
+                                <path stroke-width="2" stroke="currentColor" d="M4 12H20M12 4V20" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__shine"></div>
+                <div class="card__glow"></div>
+                <div class="card__content">
+                    <div class="card__badge">NEW</div>
+                    <div class="card__image" style="background-image: url('src/palletEjemplo.jpg'); background-size: cover;"></div>
+                    <div class="card__text">
+                        <p class="card__title">Pallet Americano</p>
+                        <p class="card__description">Resistente y versátil para múltiples usos industriales.</p>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__price">$44.99</div>
+                        <div class="card__button" onclick="location.href='#contacto'" style="cursor:pointer;">
+                            <svg height="16" width="16" viewBox="0 0 24 24">
+                                <path stroke-width="2" stroke="currentColor" d="M4 12H20M12 4V20" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__shine"></div>
+                <div class="card__glow"></div>
+                <div class="card__content">
+                    <div class="card__badge">NEW</div>
+                    <div class="card__image" style="background-image: url('src/palletEjemplo.jpg'); background-size: cover;"></div>
+                    <div class="card__text">
+                        <p class="card__title">Pallet a medida</p>
+                        <p class="card__description">Personalizado según tus necesidades logísticas.</p>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__price">$59.99</div>
+                        <div class="card__button" onclick="location.href='#contacto'" style="cursor:pointer;">
+                            <svg height="16" width="16" viewBox="0 0 24 24">
+                                <path stroke-width="2" stroke="currentColor" d="M4 12H20M12 4V20" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__shine"></div>
+                <div class="card__glow"></div>
+                <div class="card__content">
+                    <div class="card__badge">NEW</div>
+                    <div class="card__image" style="background-image: url('src/palletEjemplo.jpg'); background-size: cover;"></div>
+                    <div class="card__text">
+                        <p class="card__title">Pallet reciclado</p>
+                        <p class="card__description">Ecológico y económico, ideal para proyectos sustentables.</p>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__price">$29.99</div>
+                        <div class="card__button" onclick="location.href='#contacto'" style="cursor:pointer;">
+                            <svg height="16" width="16" viewBox="0 0 24 24">
+                                <path stroke-width="2" stroke="currentColor" d="M4 12H20M12 4V20" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     </body>
