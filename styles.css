@@ -136,6 +136,24 @@ section h2 {
 .destacados a:hover {
     background-color: #1a4bb8;
 }
+/* css del contacto */
+.texto-contacto {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+.contacto-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
