@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header>
+    <header id="hero">
         <nav class="navbar">
             <ul>
                 <li><img src="/src/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg" alt="Pallets Logo" class="logo"></li>
-                <li><a href="/">INICIO</a></li>
-                <li><a href="/productos.html">PRODUCTOS</a></li>
-                <li><a href="/contacto.html">CONTACTO</a></li>
+                <li><a id="activo" href="#hero">INICIO</a></li>
+                <li><a href="#productos">PRODUCTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
+        <section class="hero">
+            <h1>Soluciones en pallets de madera</h1>
+            <p>Calidad, rapidez y compromiso con el medio ambiente</p>
+        <a href="./pages/contacto.html">Solicita tu presupuesto</a>
+    </section>
     </header>
     <body>
-    <section class="hero">
-    <h1>Soluciones en pallets de madera</h1>
-    <p>Calidad, rapidez y compromiso con el medio ambiente</p>
-    <a href="contacto.html">Solicita tu presupuesto</a>
-    </section>
     <br>
         <section class="quienes-somos">
         <h2>Quiénes somos</h2>
@@ -40,13 +40,31 @@
         </ul>
     </section>
     <br>
-    <section class="destacados">
+    <section class="destacados" id="productos">
         <h2>Productos destacados</h2>
-            <p>Descubre algunos de nuestros modelos más solicitados</p>
-            <a href="productos.html">Ver todos los productos</a>
+        <p>Descubre algunos de nuestros modelos más solicitados</p>
+        <!-- Aquí puedes agregar más productos si lo deseas -->
+        <div class="grid-container">
+            <div class="grid-item">Pallet Europeo</div>
+            <div class="grid-item">Pallet Americano</div>
+            <div class="grid-item">Pallet a medida</div>
+            <div class="grid-item">Pallet reciclado</div>
+        </div>
     </section>
     </body>
-    <br>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p class="texto-contacto">Puedes comunicarte con nosotros a través de los siguientes medios:</p>
+        <div class="contacto-info">
+            <p>📍 Dirección: Calle Falsa 123, Buenos Aires</p>
+            <p>📞 Teléfono: (011) 1234-5678</p>
+            <p>✉️ Correo: info@palletseco.com</p>
+            <p>⏰ Horarios: Lunes a Viernes de 8:00 a 18:00 hs</p>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.9981459148357!2d-58.61571462560407!3d-34.45219494950948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca54fd09d7435%3A0xd697a250122ecfb2!2smaderas%20del%20delta!5e0!3m2!1ses-419!2sar!4v1757771571025!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2024 Pallets. Todos los derechos reservados.</p>
     </footer>
