@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background: linear-gradient(39deg,rgba(41, 0, 130, 1) 1%, rgba(46, 25, 207, 1) 51%, rgba(83, 157, 237, 1) 100%);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-shadow: white 0px 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(128, 0, 255);
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow:  0 0px 20px rgb(255, 255, 255);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    text-shadow: white 0px 0px 20px;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(39deg,rgba(41, 0, 130, 1) 1%, rgba(46, 25, 207, 1) 51%, rgba(83, 157, 237, 1) 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.grid-item {
+    background: #3d00f6;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.grid-item:hover {
+    background: #5900ff;
+    transform: scale(1.05);
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.grid-item2 {
+    background: #3d00f6;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h2{
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.contacto{
+    color: white;
+    text-shadow: white 0px 0px 20px;
+    margin-bottom: 20px;
+}
