@@ -13,9 +13,7 @@ body{
     color: #333;
     line-height: 1.6;
 }
-header{
-    background: url('/src/palletsBackground.png') no-repeat center center/cover;
-}
+
 nav{
     left: 50%;
     width: 90vw;
@@ -284,9 +282,7 @@ a{
 
 .logo{
     height: 50px;
-    width: auto;
-    border-radius: 50%;
-    box-shadow:  0 0px 20px rgb(255, 255, 255);
+    width: 110px;
 }
 
 
@@ -310,6 +306,7 @@ h1{
     height: 50vh;
     position: relative;
     z-index: 1;
+    background: url('/src/palletsBackground.png') no-repeat center center/cover;
 }
 
 .hero p{
@@ -450,4 +447,23 @@ footer{
     bottom: 0;
     width: 100%;
     background: linear-gradient(39deg,rgba(57, 57, 57, 0.476) 1%, rgba(19, 19, 19, 0.482) 51%, rgba(0, 0, 0, 0.539) 100%);
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        height: auto;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+    .ventajas ul {
+        flex-direction: column;
+    }
+    .ventajas ul li {
+        margin: 10px 0;
+    }
 }
